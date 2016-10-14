@@ -14,6 +14,8 @@
 ..2. _"bower install"._
 ..3. _"gulp build"._
 ..4. _"gulp serve"._
+* _Create a user key at github._
+* _create a file called ".env" in the top directory and put your key in it with the line "exports.apiKey = 'YOUR_KEY_HERE'";_
 * _Alternately you can view the project online at https://IanBaum.github.io/js-api-practice._
 
 ## Program Specifications
