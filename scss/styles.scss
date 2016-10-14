@@ -1,0 +1,47 @@
+$placeholderColor : #777;
+
+body{
+  background: #343434;
+  color: #e3e3e3
+}
+
+.btn{
+  background: #565656;
+  color: #e3e3e3;
+  border-color: #565656;
+}
+
+input, textarea{
+    background-color:#454545;
+    color: #FFF;
+    border-color: #454545;
+    border-radius: 5px;
+    border-style: solid;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: $placeholderColor;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: $placeholderColor;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: $placeholderColor;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: $placeholderColor;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+
+.btn:hover, .btn:focus, .btn:active, .btn.active, .open > .dropdown-toggle.btn {
+    background: #565656;
+    color: #91bbff;
+    border-color: #565656;
+}
+
+.btn:active, .btn.active, .btn:focus {
+  background: #454545;
+  border-color: #454545;
+}
