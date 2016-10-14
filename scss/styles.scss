@@ -18,6 +18,27 @@ input, textarea{
     border-radius: 5px;
     border-style: solid;
 }
+img{
+  height:150px;
+  width:auto;
+}
+li{
+  list-style: none;
+}
+
+.repoName{
+  font-size: 1.5em;
+  color: #91bbff;
+}
+.repoDate{
+  font-size: .6em;
+  color: #999;
+}
+.repoDesc{
+  font-size: .75em;
+  color: #e3e3e3;
+
+}
 ::-webkit-input-placeholder { /* WebKit browsers */
     color: $placeholderColor;
 }
